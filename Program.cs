@@ -142,7 +142,7 @@ namespace ConsoleApp1
             }
             
             //after your loop
-            System.IO.File.WriteAllText("C:\\Users\\dlynch\\Desktop\\CSV\\test.csv", csv.ToString());
+            System.IO.File.WriteAllText("C:\\Users\\Desktop\\CSV\\test.csv", csv.ToString());
             
             
 
