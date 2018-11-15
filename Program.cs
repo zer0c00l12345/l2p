@@ -18,7 +18,7 @@ namespace ConsoleApp1
             //Declare csv variable 
             var csv = new StringBuilder();
 
-            var alltext = System.IO.File.ReadAllText("C:\\Users\\dlynch\\Desktop\\CSV\\SchoolList.txt");
+            var alltext = System.IO.File.ReadAllText("C:\\Users\\Desktop\\CSV\\SchoolList.txt");
             var schoolCodelist = alltext.Split(',');
 
             foreach (var schoolCode in schoolCodelist)
