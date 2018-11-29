@@ -11,7 +11,7 @@ else:
 	sys.exit(0)
 
 
-UserNameArray = ['Dan']
+UserNameArray = ['bill']
 UserPasswordArray = ['1q']
 
 
